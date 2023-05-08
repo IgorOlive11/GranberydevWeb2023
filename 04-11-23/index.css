@@ -1,0 +1,33 @@
+div {
+    height: 500px;
+    width: 800px;
+    background-color: rgb(29, 19, 48);
+    border-radius: 50px;
+    margin: 30px;
+    margin-left: 360px;
+    position: relative;
+    animation-name: teste;
+    animation-duration: 4s;
+    padding: 50px;
+
+}
+@keyframes teste{
+    0% {background-color: rgba(29, 19, 48, 0);bottom: 100px;}
+    50% {background-color: rgb(29, 19, 48);bottom: 0px;}
+
+
+}
+
+body {
+    background-color: rgb(7, 0, 20);
+}
+input {
+    width: 200px;
+    background-color: rgb(44, 49, 99);
+    border-radius: 10px;
+}
+table, th, td {
+    border:3px solid rgb(166, 214, 247);
+    color: rgb(166, 214, 247);
+    border-radius: 20px;
+  }

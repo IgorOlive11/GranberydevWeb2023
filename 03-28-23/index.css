@@ -1,0 +1,22 @@
+html {
+    padding: 40px;
+    background-color: rgb(9, 6, 15);
+}
+div{
+    background-color: rgba(208, 239, 252, 0.89);
+    color: rgba(29, 20, 46, 0.884);
+    font-size: 30px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.tittlebox{
+    background-color: rgb(26, 18, 41);
+    color: rgb(208, 239, 252);
+    font-size: 40px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.div1 {
+    display: flex;
+}

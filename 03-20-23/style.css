@@ -1,0 +1,12 @@
+html {
+    background-color: rgb(6, 0, 15);
+}
+body {
+    color: rgb(208, 239, 252);
+    background-color: rgb(26, 18, 41);
+    border: 10px rgb(6, 0, 15);
+    border-radius: 5px;
+}
+h1 {
+    text-align: center;
+}

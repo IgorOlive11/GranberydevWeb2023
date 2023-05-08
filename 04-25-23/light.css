@@ -1,0 +1,71 @@
+div {
+    height: 400px;
+    width: 200px;
+    background-color: rgba(236, 233, 233, 0.904);
+    border-radius: 30px;
+    margin: auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    position: relative;
+    animation-name: teste;
+    animation-duration: 2s;
+    color: rgb(53, 17, 17);
+    font-size: 30px;
+    padding: 50px;
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(199, 181, 182);
+}
+
+@keyframes teste{
+    0% {background-color: rgba(214, 214, 214, 0);bottom: 100px;}
+    100% {background-color: rgb(236, 233, 233, 0.904);bottom: 0px;}
+
+
+}
+
+body {
+    background-image: url(https://i.redd.it/h70v389765261.png);
+    background-color: rgba(226, 217, 217, 0.938);
+    background-size: auto;
+    background-blend-mode: lighten;
+}
+
+input {
+    width: 200px;
+    background-color: rgb(136, 136, 139);
+    border-radius: 10px;
+}
+
+table, th, td {
+    border:3px solid rgb(166, 214, 247);
+    color: rgb(166, 214, 247);
+    border-radius: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width:2px;
+    border-color: rgb(199, 181, 182);
+    background-color: rgba(236, 233, 233, 0.904);
+    animation-name: hover;
+    animation-duration: 1s;
+    transition: 1000ms ease;
+}
+
+button:hover{
+    background-color: rgba(59, 57, 57, 0.904);
+    
+}
+
+.darkmode{
+    background-color: rgb(19, 18, 18);
+    
+}
